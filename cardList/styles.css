@@ -1,4 +1,4 @@
-/* Reset e estilos base */
+
 body {
   background-color: #121212;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,12 +7,12 @@ body {
   color: #d9d9d9;
 }
 
-/* Espaçamento entre header, cards e footer */
+
 .page-content {
   padding: 2rem 1rem;
 }
 
-/* Container dos cards */
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -22,21 +22,21 @@ body {
   margin: 0 auto;
 }
 
-/* Responsivo: 2 colunas em tablets */
+
 @media (max-width: 1024px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Responsivo: 1 coluna no celular */
+
 @media (max-width: 600px) {
   .card-container {
     grid-template-columns: 1fr;
   }
 }
 
-/* Card styles */
+
 .card {
   --bg-card: #27272a;
   --primary: #6d28d9;
@@ -163,7 +163,7 @@ body {
   width: 1rem;
 }
 
-/* Hover no card */
+
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -173,20 +173,20 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* Hover na imagem */
+
 .image_container:hover .image {
   transform: scale(1.1);
   transition: transform 0.4s ease;
 }
 
-/* Hover no botão do carrinho */
+
 .cart-button:hover {
   background-image: linear-gradient(0deg, var(--primary-800) 30%, var(--primary) 100%);
   border-color: var(--light);
   box-shadow: 0 0 10px var(--primary-shadow);
 }
 
-/* HEADER */
+
 .header {
   width: 100vw;
   background-color: #000000;
@@ -209,7 +209,7 @@ body {
   width: auto;
 }
 
-/* Navegação */
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -229,7 +229,7 @@ body {
   color: #6d28d9;
 }
 
-/* FOOTER */
+
 .footer {
   width: 100vw;
   background-color: #000000;
@@ -241,7 +241,6 @@ body {
   box-sizing: border-box;
 }
 
-/* RESPONSIVO NAV */
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
