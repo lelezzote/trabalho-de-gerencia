@@ -230,5 +230,17 @@ body {
   box-shadow: inset 0px 1px 4px var(--primary-shadow);
 }
 
+.description {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  font-size: 0.8rem;
+  color: #aaa;
+}
 
+.card:hover .description {
+  opacity: 1;
+  max-height: 100px;
+}
 
