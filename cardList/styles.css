@@ -252,4 +252,10 @@ body {
     flex-direction: column;
     gap: 1rem;
   }
+
+  .logo {
+  width: 150px; 
+  height: auto;
+}
+
 }
