@@ -4,6 +4,7 @@ Este é um projeto escolar que simula um **portfólio de uma loja de tênis** ch
 O site foi desenvolvido utilizando apenas **HTML5** e **CSS3**, com foco em design responsivo, organização de conteúdo e estilização visual.
 
 ---
+Estudantes: Leticia,Nathalia e Maryani Souza     Info 6B
 
 ## 📌 Sobre o Projeto
 
